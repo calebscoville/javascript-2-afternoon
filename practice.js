@@ -14,9 +14,12 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+let me = {
+  name: 'Caleb Scoville',
+  age: 33,
+}
 
-
+me.name
 
 ////////// PROBLEM 2 //////////
 
@@ -25,7 +28,15 @@
   Have the values to those keys be strings that are equal to your favorite thing in that category.
 */
 
-//Code here
+let favoriteThings =
+  {
+    band: 'Coldplay', 
+    food: 'Indian', 
+    person: 'Kim and Ollie', 
+    book: 'The Horse and His Boy', 
+    movie: 'Imitation Game', 
+    holiday: 'Christmas'
+  }
 
 
 
@@ -34,7 +45,8 @@
   and then another key named 'brand' with the value being your favorite brand.
 */
 
-//Code here
+favoriteThings.car = 'BMW'
+favoriteThings.brand = 'BMW'
 
 
 
